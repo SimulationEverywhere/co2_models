@@ -2,6 +2,8 @@
 Models for CO2 spread in closed spaces
 A CD++ model 
 
+This is a description of the co2_lab model. The other models follow the same rules, but with different floor plans and dimensions.
+
 A Cell-DEVS model in CD++ that can represent: 
 1.	Closed spaces of size 3.5m × 5.75m × 2.5m (width × length × height)
 2.	Occupants arriving and leaving at different times
