@@ -41,7 +41,7 @@ InitialVariablesValue: computer_lab.val
 rule : { ~c := $conc; ~ty := $type; } { $conc := -10; } 1000 { $type = -300 }
 
 % Doors represent fixed co2 levels of the rest of the building (large volume compared to small room)
-%rule : { ~c := $conc; ~ty := $type; } { $conc := 500; } 1000 { $type = -400 }
+rule : { ~c := $conc; ~ty := $type; } { $conc := 500; } 1000 { $type = -400 }
 
 % Windows to the outside have a lower CO2 concentration (anywhere from 300 to 400 ppm)
 rule : { ~c := $conc; ~ty := $type; } { $conc := 400; } 1000 { $type = -500 }
